@@ -25,6 +25,11 @@ header{
     height: 200px;
 }
 
+
+.col-md-3{
+    height: 200px;
+}
+
 .col-md-5{
     height: 200px;
 }
