@@ -15,6 +15,14 @@ header{
     height: 400px;
 }
 
+.main-footer{
+    height: 400px;
+}
+
+.secondary-footer{
+    height: 400px;
+}
+
 /*COLS*/
 
 .col-sm-8{
@@ -22,18 +30,5 @@ header{
 }
 
 .col-sm-10{
-    height: 200px;
-}
-
-
-.col-md-3{
-    height: 200px;
-}
-
-.col-md-5{
-    height: 200px;
-}
-
-.col-md-8{
     height: 200px;
 }
