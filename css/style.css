@@ -1,3 +1,4 @@
+/* SECTIONS HEIGHT*/
 header{
     height: 80px;
 }
@@ -6,6 +7,24 @@ header{
     height: 400px;
 }
 
+.about{
+    height: 400px;
+}
+
+.contact{
+    height: 400px;
+}
+
+/*COLS*/
 .col-6{
     height: 150px;
+}
+
+.col-4{
+    height: 150px;
+}
+
+.col-8{
+    height: 150px;
+
 }
