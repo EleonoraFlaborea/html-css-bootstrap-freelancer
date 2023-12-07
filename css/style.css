@@ -16,15 +16,10 @@ header{
 }
 
 /*COLS*/
-.col-6{
-    height: 150px;
-}
-
-.col-4{
-    height: 150px;
-}
-
 .col-8{
     height: 150px;
+}
 
+.col-10{
+    height: 200px;
 }
