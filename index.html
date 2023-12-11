@@ -124,15 +124,36 @@
 
     <!--SECTION: CONTACT-->
     <section id="contact">
-        <div class="container">
-            <h1>CONTACT</h1>
+        <div class="container pt-4">
+            <h1 class="title-contact">CONTACT</h1>
             <div class="d-flex justify-content-center">
                 <div class="border-bottom border-3 border-black line-width align-self-center me-1"></div>
                 <i class="fa-solid fa-star"></i>
                 <div class="border-bottom border-3 border-black line-width align-self-center ms-1"></div>
             </div>
             <div class="row justify-content-center">
-               <div class="col col-10"></div>
+               <div class="col col-10">
+                <form action="">
+
+                    <div class="mb-3">
+                        <input type="text" class="form-control rounded-0 border-0 border-bottom ps-0" id="name" placeholder="Name">
+                    </div>
+
+                    <div class="mb-3">
+                        <input type="email" class="form-control rounded-0 border-0 border-bottom ps-0" id="email" placeholder="Email">
+                    </div>
+
+                    <div class="mb-3">
+                        <input type="tel" class="form-control rounded-0 border-0 border-bottom ps-0" id="phone" placeholder="Phone">
+                    </div>
+
+                    <div class="mb-3">
+                        <textarea class="form-control rounded-0 border-0 border-bottom ps-0" id="message" rows="3" placeholder="Message"></textarea>
+                    </div>
+
+                    <button class="btn btn-green text-white mb-4">Send</button>
+                </form>
+               </div>
             </div>
         </div>
     </section>

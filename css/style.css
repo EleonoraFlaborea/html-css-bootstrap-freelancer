@@ -49,6 +49,15 @@ img{
 }
 
 /*Contact*/
+.title-contact{
+    text-align: center;
+
+}
+
+.btn-green{
+    background-color:#1ABC9C;
+
+}
 
 /*Footer*/
 footer{
