@@ -1,3 +1,8 @@
+/*Utils*/
+img{
+    width: 100%;
+}
+
 /* BACKGROUND COLOR*/
 .dark-blue{
     height: 80px;
@@ -5,7 +10,6 @@
 }
 
 /*COLS*/
-
 .col{
     min-height: 100px;
     border: 1px dashed black;
@@ -18,7 +22,19 @@
 /*Jumbotron*/
 #jumbotron{
     background-color: #1ABC9C;
+    text-align: center;
 }
+
+#jumbotron img{
+   height: 300px;
+}
+
+.line-width{
+    width: 80px;
+}
+
+/*Portfolio*/
+
 
 #about{
     background-color: #1ABC9C;
