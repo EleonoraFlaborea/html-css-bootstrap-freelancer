@@ -3,6 +3,10 @@ img{
     width: 100%;
 }
 
+li{
+    list-style-type: none;
+}
+
 /* BACKGROUND COLOR*/
 .dark-blue{
     height: 80px;
@@ -62,8 +66,21 @@ img{
 /*Footer*/
 footer{
     background-color: #3A546D;
+    text-align: center;
+}
+
+.main-footer li{
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 50%;
+}
+
+.text-green{
+    color: #1ABC9C;
 }
 
 .secondary-footer{
     background-color: #2C3D50;
+    min-height: 60px;
+    padding-top: 40px;
 }
