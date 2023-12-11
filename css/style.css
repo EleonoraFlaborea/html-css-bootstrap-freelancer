@@ -1,21 +1,7 @@
-/* SECTIONS HEIGHT*/
-header{
+/* BACKGROUND COLOR*/
+.dark-blue{
     height: 80px;
-    border: 1px dashed black;
-}
-
-.section{
-    min-height: 400px;
-    border: 1px dashed black;
-
-}
-
-.container{
-    border: 1px dashed black;
-}
-
-.container-fluid{
-    border: 1px dashed black;
+    background-color: #2C3D50;
 }
 
 /*COLS*/
@@ -29,3 +15,23 @@ header{
     min-height: 100px;
 }
 
+/*Jumbotron*/
+#jumbotron{
+    background-color: #1ABC9C;
+}
+
+#about{
+    background-color: #1ABC9C;
+}
+
+footer{
+    background-color: #3A546D;
+}
+
+.secondary-footer{
+    background-color: #2C3D50;
+}
+
+.btn-white{
+    border: 1px solid white;
+}
