@@ -18,6 +18,11 @@ img{
     min-height: 100px;
 }
 
+/*Header*/
+.btn-white{
+    border: 1px solid white;
+}
+
 /*Jumbotron*/
 #jumbotron{
     background-color: #1ABC9C;
@@ -37,19 +42,19 @@ img{
     text-align: center;
 }
 
-
+/*About*/
 #about{
     background-color: #1ABC9C;
+    text-align: center;
 }
 
+/*Contact*/
+
+/*Footer*/
 footer{
     background-color: #3A546D;
 }
 
 .secondary-footer{
     background-color: #2C3D50;
-}
-
-.btn-white{
-    border: 1px solid white;
 }
