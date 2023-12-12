@@ -9,22 +9,19 @@ li{
 
 /* BACKGROUND COLOR*/
 .dark-blue{
-    height: 80px;
+    min-height: 80px;
     background-color: #2C3D50;
 }
 
 /*COLS*/
-.col{
-    min-height: 100px;
-}
-
-.col-10{
-    min-height: 100px;
-}
 
 /*Header*/
 .btn-white{
     border: 1px solid white;
+}
+
+.navbar-toggler-icon{
+    border-color: white;
 }
 
 /*Jumbotron*/
@@ -71,7 +68,10 @@ footer{
 
 .main-footer li{
     border: 1px solid white;
-    padding: 5px 10px;
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    justify-content: center;
     border-radius: 50%;
 }
 
